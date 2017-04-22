@@ -44,7 +44,7 @@ public class Evaluator {
                 tempMap2.remove(key);
                 for (Integer key2 : tempMap2.keySet()){
                     if(tempMap2.get(key2) == 2){
-                        return "TOWPAIR";
+                        return "TWOPAIR";
                     }else if(tempMap2.get(key2) == 3){
                         return "FULLHOUSE";
                     }else return "ONEPAIR";

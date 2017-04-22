@@ -77,7 +77,7 @@ public class EvaluatorTest {
                 new Card(2, Suit.DIAMONDS)
         );
         String result = evaluator.evaluate(cardList);
-        assertThat(result, is("TOWPAIR"));
+        assertThat(result, is("TWOPAIR"));
     }
     @Test
     public void rank2개가_동일하면_원페어이다() {
